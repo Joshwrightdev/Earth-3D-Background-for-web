@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+#canvas-container {
+  width: 100%;
+  height: 100%;
+  position:absolute ;
+}
+
+header{
+    position: absolute;
+}
+
+
+
+.jumbotron-custom {
+  background-color: navy;
+  color: rgb(168, 164, 164);
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+#notes-header {
+  background-color: navy;
+  color: white;
+}
+
+.rover-img {
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.rover-info {
+  position: relative;
+  width: 300px;
+}
+
+.temp-text-small {
+  font-size: 11px;
+  color: red;
+}
+
+.rover-info li {
+  padding: 20px;
+}
